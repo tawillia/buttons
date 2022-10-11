@@ -6,23 +6,15 @@
   position: relative;
   /* overflow-x: hidden !important; */
 }
-.content-box-sm {
-  padding: 20px 0;
-}
+
 .content-box-md {
-  padding: 40px 0 !important;
-}
-.content-box-lg {
-  padding: 60px 0 !important;
-}
-.content-box-xl {
-  padding: 80px 0;
+  padding: 40px 0 40px 20px !important;
 }
 .align-right {
-  /* justify-content: flex-end !important; */
   float: right !important;
   float: inline-end;
 }
+
 .lnk-btn {
   text-decoration: none !important;
   color: #000 !important;
@@ -42,6 +34,7 @@ white-space: nowrap !important;
     white-space: nowrap !important;
     overflow-x: auto;
 }
+
 
 
 /* .App {
