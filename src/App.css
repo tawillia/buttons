@@ -4,12 +4,12 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  /* overflow-x: hidden !important; */
 }
 
 .content-box-md {
   padding: 40px 0 40px 20px !important;
 }
+
 .align-right {
   float: right !important;
   float: inline-end;
@@ -21,21 +21,33 @@
   background-color: transparent !important;
 }
 
+.lnk-btn:hover {
+  text-decoration: solid !important;
+  color: #70872B !important;
+  background-color: transparent !important;
+}
+
 button {
 color: #000 !important;
 background-color: #D2EF79 !important;
 border: none !important;
-/* max-width: 100px !important; */
 white-space: nowrap !important;
 }
+
+button:hover {
+  background-color: #B7D757 !important;
+}
+
+#button-tooltip > .tooltip-inner {
+  background-color: #515151 !important;
+  color: #fff !important;
+}
+
 .nowrap {
     width: 100%;
-    /* height: 90px; */
     white-space: nowrap !important;
     overflow-x: auto;
 }
-
-
 
 /* .App {
   text-align: center;
